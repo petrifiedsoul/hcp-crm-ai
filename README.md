@@ -28,7 +28,7 @@ The LangGraph agent is equipped with 5 specialized tools:
 
 ## 🚀 Getting Started
 
-### 1. Database Setup
+###  Database Setup
 Create a MySQL database named `hcp_crm` and run the following:
 ```sql
 CREATE TABLE interactions (
@@ -41,7 +41,9 @@ CREATE TABLE interactions (
     timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
-### 2. Backend Setup
+---
+
+## Backend Setup
 
 cd backend
 python -m venv venv
@@ -49,7 +51,10 @@ source venv/bin/activate  # Or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 
-### 3. Frontend Setup
+---
+
+
+## 3. Frontend Setup
 cd frontend
 npm install
 npm start
