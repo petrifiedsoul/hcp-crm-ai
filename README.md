@@ -43,8 +43,9 @@ CREATE TABLE interactions (
 
 ---
 
-## Backend Setup
+### 2. Backend Setup
 
+```bash
 cd backend
 python -m venv venv
 source venv/bin/activate  # Or venv\Scripts\activate on Windows
